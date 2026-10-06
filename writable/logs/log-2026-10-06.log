@@ -1,0 +1,206 @@
+CRITICAL - 2026-10-06 13:52:47 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "login.php"
+[Method: GET, Route: login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Login.php(55): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-06 14:15:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "customer_accounts.php"
+[Method: GET, Route: accounts]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer_accounts.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('customer_accounts', [], true)
+ 3 APPPATH\Controllers\CustomerAccounts.php(66): view('customer_accounts', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CustomerAccounts->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerAccounts))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-06 14:16:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "customer_accounts.php"
+[Method: GET, Route: accounts]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer_accounts.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('customer_accounts', [], true)
+ 3 APPPATH\Controllers\CustomerAccounts.php(66): view('customer_accounts', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CustomerAccounts->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerAccounts))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-06 14:19:28 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "customer_accounts.php"
+[Method: GET, Route: accounts]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer_accounts.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('customer_accounts', [], true)
+ 3 APPPATH\Controllers\CustomerAccounts.php(66): view('customer_accounts', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CustomerAccounts->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerAccounts))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-06 14:20:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "customer_accounts.php"
+[Method: GET, Route: accounts]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer_accounts.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('customer_accounts', [], true)
+ 3 APPPATH\Controllers\CustomerAccounts.php(66): view('customer_accounts', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CustomerAccounts->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerAccounts))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-06 14:26:22 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "customer_accounts.php"
+[Method: GET, Route: accounts]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer_accounts.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('customer_accounts', [], true)
+ 3 APPPATH\Controllers\CustomerAccounts.php(66): view('customer_accounts', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CustomerAccounts->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerAccounts))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-06 14:28:03 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "customer_accounts.php"
+[Method: GET, Route: accounts]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer_accounts.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('customer_accounts', [], true)
+ 3 APPPATH\Controllers\CustomerAccounts.php(66): view('customer_accounts', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CustomerAccounts->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerAccounts))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-06 14:28:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "customer_accounts.php"
+[Method: GET, Route: accounts]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer_accounts.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('customer_accounts', [], true)
+ 3 APPPATH\Controllers\CustomerAccounts.php(66): view('customer_accounts', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CustomerAccounts->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerAccounts))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-06 14:28:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "customer_accounts.php"
+[Method: GET, Route: accounts]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer_accounts.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('customer_accounts', [], true)
+ 3 APPPATH\Controllers\CustomerAccounts.php(66): view('customer_accounts', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CustomerAccounts->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerAccounts))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-06 14:28:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "customer_accounts.php"
+[Method: GET, Route: accounts]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer_accounts.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('customer_accounts', [], true)
+ 3 APPPATH\Controllers\CustomerAccounts.php(66): view('customer_accounts', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CustomerAccounts->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerAccounts))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-06 14:28:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "customer_accounts.php"
+[Method: GET, Route: accounts]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer_accounts.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('customer_accounts', [], true)
+ 3 APPPATH\Controllers\CustomerAccounts.php(66): view('customer_accounts', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CustomerAccounts->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerAccounts))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-06 14:31:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "customer_accounts.php"
+[Method: GET, Route: accounts]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer_accounts.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('customer_accounts', [], true)
+ 3 APPPATH\Controllers\CustomerAccounts.php(66): view('customer_accounts', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CustomerAccounts->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerAccounts))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-06 14:31:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "customer_accounts.php"
+[Method: GET, Route: accounts]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer_accounts.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('customer_accounts', [], true)
+ 3 APPPATH\Controllers\CustomerAccounts.php(66): view('customer_accounts', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CustomerAccounts->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerAccounts))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-06 14:48:12 --> ErrorException: Undefined variable $total_accounts
+[Method: GET, Route: account/11]
+in APPPATH\Views\customeraccounts.php on line 169.
+ 1 APPPATH\Views\customeraccounts.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_accounts', 'D:\\xampp\\htdocs\\electriccompany\\app\\Views\\customeraccounts.php', 169)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\electriccompany\\app\\Views\\customeraccounts.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('customeraccounts', [], true)
+ 5 APPPATH\Controllers\CustomerAccounts.php(85): view('customeraccounts', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CustomerAccounts->viewAccount('11')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerAccounts))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-06 15:07:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "account_form.php"
+[Method: GET, Route: account/edit/10]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('account_form.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('account_form', [], true)
+ 3 APPPATH\Controllers\CustomerAccounts.php(151): view('account_form', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CustomerAccounts->edit('10')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerAccounts))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-06 15:07:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "account_form.php"
+[Method: GET, Route: account/edit/10]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('account_form.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('account_form', [], true)
+ 3 APPPATH\Controllers\CustomerAccounts.php(151): view('account_form', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CustomerAccounts->edit('10')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerAccounts))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-06 15:07:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "account_form.php"
+[Method: GET, Route: account/edit/10]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('account_form.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('account_form', [], true)
+ 3 APPPATH\Controllers\CustomerAccounts.php(151): view('account_form', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CustomerAccounts->edit('10')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerAccounts))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

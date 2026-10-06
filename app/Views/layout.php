@@ -174,6 +174,9 @@
                         <a class="nav-link <?= (isset($page) && $page == 'home') ? 'active' : '' ?>" href="<?= base_url() ?>">Home</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link <?= (isset($page) && $page == 'accounts') ? 'active' : '' ?>" href="<?= base_url('accounts') ?>">Accounts</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link <?= (isset($page) && $page == 'about') ? 'active' : '' ?>" href="<?= base_url('about') ?>">About</a>
                     </li>
                     <li class="nav-item">
