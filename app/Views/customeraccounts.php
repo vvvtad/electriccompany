@@ -150,7 +150,7 @@
                     </div>
                 <?php endif; ?>
 
-                <a href="<?= base_url('account/new') ?>" class="btn btn-primary mb-3">
+                <a href="<?= base_url('account/create') ?>" class="btn btn-primary mb-3">
                     <i class="fas fa-plus"></i> Add Customer Account
                 </a>
 

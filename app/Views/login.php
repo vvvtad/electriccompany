@@ -297,14 +297,9 @@
         </form>
 
 
-        <!-- Home Link -->
-
-        <a
-            href="<?= base_url('/') ?>"
-            class="login-home"
-        >
-            Return to Home
-        </a>
+        <div class="text-center mt-4">
+            <p class="text-muted">Don't have an account? <a href="<?= base_url('register') ?>" class="text-primary-custom fw-semibold">Register</a></p>
+        </div>
 
     </div>
 

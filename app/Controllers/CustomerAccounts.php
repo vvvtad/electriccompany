@@ -137,6 +137,27 @@ class CustomerAccounts extends BaseController
         return view('viewaccount', $data);
     }
 
+    public function create()
+    {
+        if (! $this->isLoggedIn()) {
+            return redirect()->to('/login')->with('error', 'Please log in to create customer accounts.');
+        }
+
+        return view('addaccount', [
+            'title' => 'Add Customer Account',
+            'page' => 'accounts',
+            'account' => [],
+            'formAction' => base_url('account/create'),
+            'formTitle' => 'Add Customer Account',
+            'validation' => session()->getFlashdata('validation'),
+        ]);
+    }
+
+    public function save()
+    {
+        return $this->saveAccount();
+    }
+
     public function edit($id)
     {
         if (! $this->isLoggedIn()) {

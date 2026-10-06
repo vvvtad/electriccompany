@@ -204,3 +204,17 @@ in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
  7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-06 15:44:30 --> RuntimeException: View themes, no current section.
+[Method: GET, Route: account/edit/2]
+in SYSTEMPATH\View\View.php on line 442.
+ 1 APPPATH\Views\editaccount.php(69): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\electriccompany\\app\\Views\\editaccount.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('editaccount', [], true)
+ 5 APPPATH\Controllers\CustomerAccounts.php(172): view('editaccount', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CustomerAccounts->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerAccounts))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

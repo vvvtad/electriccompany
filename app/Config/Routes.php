@@ -16,6 +16,9 @@ $routes->post('/register', 'Register::create');
 $routes->get('/accounts', 'CustomerAccounts::index');
 $routes->get('/account/(:num)', 'CustomerAccounts::viewAccount/$1');
 
+$routes->get('/account/create', 'CustomerAccounts::create');
+$routes->post('/account/create', 'CustomerAccounts::save');
+
 $routes->get('/account/edit/(:num)', 'CustomerAccounts::edit/$1');
 $routes->post('/account/update/(:num)', 'CustomerAccounts::update/$1');
 

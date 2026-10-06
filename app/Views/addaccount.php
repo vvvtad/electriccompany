@@ -1,5 +1,6 @@
 <?= $this->extend('layout') ?>
 <?= $this->section('content') ?>
+
 <section class="section-padding bg-light-custom">
     <div class="container">
         <div class="row justify-content-center">
@@ -19,33 +20,33 @@
                         <?= csrf_field() ?>
                         <div class="row g-3">
                             <div class="col-md-6"><label class="form-label" for="account_number">Account Number</label>
-                                <input class="form-control" id="account_number" name="account_number" value="<?= old('account_number', $account['account_number'] ?? '') ?>" required>
+                                <input class="form-control" id="account_number" name="account_number" value="<?= old('account_number') ?>" required>
                             </div>
 
                             <div class="col-md-6"><label class="form-label" for="meter_number">Meter Number</label>
-                                <input class="form-control" id="meter_number" name="meter_number" value="<?= old('meter_number', $account['meter_number'] ?? '') ?>" required>
+                                <input class="form-control" id="meter_number" name="meter_number" value="<?= old('meter_number') ?>" required>
                             </div>
 
                             <div class="col-md-12"><label class="form-label" for="customer_name">Customer Name</label>
-                                <input class="form-control" id="customer_name" name="customer_name" value="<?= old('customer_name', $account['customer_name'] ?? '') ?>" required>
+                                <input class="form-control" id="customer_name" name="customer_name" value="<?= old('customer_name') ?>" required>
                             </div>
 
                             <div class="col-md-12"><label class="form-label" for="address">Address</label>
-                                <input class="form-control" id="address" name="address" value="<?= old('address', $account['address'] ?? '') ?>" required>
+                                <input class="form-control" id="address" name="address" value="<?= old('address') ?>" required>
                             </div>
 
                             <div class="col-md-6"><label class="form-label" for="phone">Phone</label>
-                                <input class="form-control" id="phone" name="phone" value="<?= old('phone', $account['phone'] ?? '') ?>" required>
+                                <input class="form-control" id="phone" name="phone" value="<?= old('phone') ?>" required>
                             </div>
 
                             <div class="col-md-6"><label class="form-label" for="email">Email</label>
-                                <input class="form-control" type="email" id="email" name="email" value="<?= old('email', $account['email'] ?? '') ?>" required>
+                                <input class="form-control" type="email" id="email" name="email" value="<?= old('email') ?>" required>
                             </div>
 
                             <div class="col-md-6"><label class="form-label" for="connection_type">Connection Type</label>
                                 <select class="form-select" id="connection_type" name="connection_type" required>
                                     <?php foreach (['residential', 'commercial', 'industrial'] as $type): ?>
-                                        <option value="<?= $type ?>" <?= old('connection_type', $account['connection_type'] ?? 'residential') === $type ? 'selected' : '' ?>><?= ucfirst($type) ?></option>
+                                        <option value="<?= $type ?>" <?= old('connection_type', 'residential') === $type ? 'selected' : '' ?>><?= ucfirst($type) ?></option>
                                     <?php endforeach; ?>
                                 </select>
                             </div>
@@ -53,7 +54,7 @@
                             <div class="col-md-6"><label class="form-label" for="status">Status</label>
                                 <select class="form-select" id="status" name="status" required>
                                     <?php foreach (['active', 'inactive', 'suspended'] as $status): ?>
-                                        <option value="<?= $status ?>" <?= old('status', $account['status'] ?? 'active') === $status ? 'selected' : '' ?>><?= ucfirst($status) ?></option>
+                                        <option value="<?= $status ?>" <?= old('status', 'active') === $status ? 'selected' : '' ?>><?= ucfirst($status) ?></option>
                                     <?php endforeach; ?>
                                 </select>
                             </div>
@@ -67,4 +68,5 @@
         </div>
     </div>
 </section>
+
 <?= $this->endSection() ?>

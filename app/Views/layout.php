@@ -185,9 +185,22 @@
                     <li class="nav-item">
                         <a class="nav-link <?= (isset($page) && $page == 'contact') ? 'active' : '' ?>" href="<?= base_url('contact') ?>">Contact</a>
                     </li>
+
+                    <?php if (session()->get('isLogged')): ?>
+                    <li class="nav-item">
+                        <a
+                            class="nav-link"
+                            href="<?= base_url('logout') ?>"
+                        >
+                            Logout
+                        </a>
+                    </li>
+
+                    <?php else: ?>
                     <li class="nav-item">
                         <a class="nav-link <?= (isset($page) && $page == 'register') ? 'active' : '' ?>" href="<?= base_url('register') ?>">Register</a>
                     </li>
+                    <?php endif; ?>
                 </ul>
             </div>
         </div>
