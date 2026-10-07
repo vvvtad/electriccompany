@@ -8,7 +8,7 @@ class Home extends BaseController
     {
         $data = [ 
             'title' => 'PowerFlow Electric - Reliable Energy Solutions', 'page' => 'home']; 
-        return view('home', $data); 
+        return view('index', $data); 
     } 
 
 }
